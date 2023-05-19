@@ -1,0 +1,9 @@
+local Tab = Window:NewTab("سرعه")
+
+local Section = Tab:NewSection("الحد الأقصى 1000")
+
+Section:NewSlider("Speed", "SliderInfo", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+end)
