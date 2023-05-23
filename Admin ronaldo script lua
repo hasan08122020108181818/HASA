@@ -1,7 +1,7 @@
 	local Players = game:GetService("Players")
 	game.StarterGui:SetCore("SendNotification", {
 		Title = " اكتب-ronaldo الاوامر لأضهار"; 
-		Text = "-kill / -backdoor - fly"; 
+		Text = "اتمنى يعجبك السكربت"; 
 		Icon = "rbxassetid://13395962812"; 
 		Duration = 20; 
 	})
