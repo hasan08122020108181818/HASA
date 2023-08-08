@@ -312,9 +312,9 @@ local function createOriginialElements()
 		close.BorderSizePixel = 0
 		close.Size = UDim2.new(2, 14, 30.48, 5)
 		close.AutoButtonColor = false
-		close.Image = "rbxassetid://14350080241" 
+		close.Image = "rbxassetid://11520882762" 
 		close.ImageRectOffset = Vector2.new(48, 0)
-		close.ImageRectSize = Vector2.new(20, 20)
+		close.ImageRectSize = Vector2.new(30, 30)
 
 		closeAspect.Name = "CloseAspect"
 		closeAspect.Parent = close
